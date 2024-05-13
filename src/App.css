@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.carousel-item img {
+  height: calc(100vh - 56px)!important;/* Adjust 56px to your navbar's actual height */
+  object-fit: cover ; /* This ensures images cover the area without being stretched */
+  width: 100%; /* Ensure the images are full width */
+}
